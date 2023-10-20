@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/2be2ef024a5bbf336b7
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6433510598').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001969884866').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6433510598').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6433510598').split()]
@@ -58,8 +58,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+z2b3yBUUMf80NWVl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Thunnder_Bot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+U3Y_jbbzAh0yZDk1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MS_Movvies')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MS_Mihir/17')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴡᴀɪᴛ ɪ ᴀᴍ ꜱʟɪɢʜᴛʟʏ ʙᴜꜱʏ')
