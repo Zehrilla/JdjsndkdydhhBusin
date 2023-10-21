@@ -921,7 +921,7 @@ async def deletemultiplefiles(bot, message):
         parse_mode=enums.ParseMode.HTML
     )
 
-@Client.on_message(filters.command("ms_shortner"))
+@Client.on_message(filters.command("shortner"))
 async def shortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -953,7 +953,7 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>Successfully added shortlink API for {title}.\n\nCurrent Shortlink Website: <code>{shortlink_url}</code>\nCurrent API: <code>{api}</code></b>")
     
-@Client.on_message(filters.command("setshortlinkoff") & filters.user(ADMINS))
+@Client.on_message(filters.command("shortneroff") & filters.user(ADMINS))
 async def offshortlink(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -981,7 +981,7 @@ async def onshortlink(bot, message):
     # ENABLE_SHORTLINK = True
     return await message.reply_text("Successfully enabled shortlink")
 
-@Client.on_message(filters.command("ms_shortlinkinfo"))
+@Client.on_message(filters.command("shortner_info"))
 async def showshortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -1026,7 +1026,7 @@ async def showshortlink(bot, message):
             return await message.reply_text("Shortener url and Tutorial Link Not Connected. Check this commands, /shortlink and /set_tutorial")
 
 
-@Client.on_message(filters.command("ms_tutorial"))
+@Client.on_message(filters.command("your_vtutorial"))
 async def settutorial(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
