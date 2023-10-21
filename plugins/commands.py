@@ -250,7 +250,7 @@ async def start(client, message):
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}", True)
         else:
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}", False)
-        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴀɢᴀʀ ᴀᴀᴘ ᴍᴏᴠɪᴇ ᴋᴏ ɪꜱ ɢʀᴏᴜᴘ ᴍᴇ ▶️ @Movvies_Request ᴅᴇᴍᴀɴᴅ ᴋᴀʀᴛᴇ ʜᴀɴ ᴛᴏ ᴀᴀᴘᴋᴏ ʟɪɴᴋ ɴᴀʜɪ ᴍɪʟᴇɢᴀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴀɢᴀʀ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪɴ 10 ᴍɪɴᴜᴛᴇꜱ ꜱᴏ ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📁 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📁', url=g)
@@ -271,7 +271,7 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴀɢᴀʀ ᴀᴀᴘ ᴍᴏᴠɪᴇ ᴋᴏ ɪꜱ ɢʀᴏᴜᴘ ᴍᴇ ▶️ @Movvies_Request 🍿 ᴜᴘᴅᴀᴛᴇꜱ🎥 ᴅᴇᴍᴀɴᴅ ᴋᴀʀᴛᴇ ʜᴀɴ ᴛᴏ ᴀᴀᴘᴋᴏ ʟɪɴᴋ ɴᴀʜɪ ᴍɪʟᴇɢᴀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪɴ 10 ᴍɪɴᴜᴛᴇꜱ ꜱᴏ ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📂 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📂', url=g)
@@ -343,7 +343,7 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴀɢᴀʀ ᴀᴀᴘ ᴍᴏᴠɪᴇ ᴋᴏ ɪꜱ ɢʀᴏᴜᴘ ᴍᴇ ▶️ @Movvies_Request ᴅᴇᴍᴀɴᴅ ᴋᴀʀᴛᴇ ʜᴀɴ ᴛᴏ ᴀᴀᴘᴋᴏ ʟɪɴᴋ ɴᴀʜɪ ᴍɪʟᴇɢᴀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: ⚠️ ᴀɢᴀ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ɪɴ 10 ᴍɪɴᴜᴛᴇꜱ ꜱᴏ ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton('📂 ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📂', url=g)
