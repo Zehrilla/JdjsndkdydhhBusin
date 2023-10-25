@@ -312,7 +312,7 @@ async def start(client, message):
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
-                    protect_content=True,
+                    protect_content=False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 return
@@ -320,7 +320,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 caption=f_caption,
-                protect_content=True if pre == 'filep' else False,
+                protect_content=False,
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
@@ -368,14 +368,14 @@ async def start(client, message):
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
-                    protect_content=True,
-                    reply_markup=InlineKeyboardMarkup(btn)
+                    protect_content=False,
+                    reply_markup=InleyboardMarkup(btn)
                 )
                 return
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
-                protect_content=True if pre == 'filep' else False,
+                protect_content=False,
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
@@ -403,7 +403,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@Thunnder_Bot ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@MS_Movvies ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -421,7 +421,7 @@ async def start(client, message):
         ]]
         await message.reply_text(
             text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
-            protect_content=True,
+            protect_content=False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
         return
@@ -429,7 +429,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        protect_content=True if pre == 'filep' else False,
+        protect_content=False,
         reply_markup=InlineKeyboardMarkup(
             [
              [
