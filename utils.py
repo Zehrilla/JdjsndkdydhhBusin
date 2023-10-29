@@ -671,11 +671,11 @@ async def get_verify_shorted_link(link):
                         return data['shortenedUrl']
                     else:
                         logger.error(f"Error: {data['message']}")
-                        return f'https://{URL}/api?api={API}&link={link}'
+                        return f'https://{URL}/api?api={API}&link={link}&alias=CustomAlias'
 
         except Exception as e:
             logger.error(e)
-            return f'{URL}/api?api={API}&link={link}'
+            return f'{URL}/api?api={API}&link={link}&alias=CustomAlias'
 
 async def check_token(bot, userid, token):
     user = await bot.get_users(userid)
