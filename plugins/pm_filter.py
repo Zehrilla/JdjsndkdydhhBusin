@@ -167,7 +167,7 @@ async def next_page(bot, query):
                     [InlineKeyboardButton("❰ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
                 )
             elif off_set is None:
-                btn.append([InlineKeyboardButton("📚 ᴘᴀɢᴇ", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
+                btn.append([InlineKeyboardButton("📚 ᴘᴀɢᴇ", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("ɴᴇxᴛ ❱", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
@@ -397,6 +397,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
+                    InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
                     InlineKeyboardButton("sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
                 ]
@@ -405,6 +406,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         else:
             btn.insert(0, 
                 [
+                    InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
                     InlineKeyboardButton("sᴇᴀsᴏɴ", callback_data=f"seasons#{key}")
                 ]
@@ -414,6 +416,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
+                InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
                 InlineKeyboardButton("sᴇᴀsᴏɴ", callback_data=f"seasons#{key}")
             ]
@@ -445,9 +448,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
         InlineKeyboardButton("‼️ ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘᴍ ‼️", url=f"https://telegram.me/{temp.U_NAME}")
-    ])
-    btn.insert(0, [
-        InlineKeyboardButton("!! sᴇɴᴅ ᴀʟʟ !!", callback_data=f"sendfiles#{key}")
     ])
     # else:
     #     btn.insert(0, [
@@ -1860,7 +1860,7 @@ async def auto_filter(client, msg, spoll=False):
     #     ]
         btn.insert(0, 
             [
-                InlineKeyboardButton("!! sᴇɴᴅ ᴀʟʟ !!", callback_data=f"sendfiles#{key}"),
+                InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
                 InlineKeyboardButton("sᴇᴀsᴏɴ", callback_data=f"seasons#{key}")
             ]
@@ -1949,7 +1949,7 @@ async def auto_filter(client, msg, spoll=False):
     #     )
     # else:
     if settings["button"]:
-        cap = f"<b>✰ ғɪʟᴇs / ᴠɪᴅᴇᴏ ᴏғ ▶ {search}\n\n✰ ᴀsᴋᴇᴅ ʙʏ ▶ {message.from_user.mention}\n\n✰ ɢɪᴠᴇɴ ɪɴ ▶ {remaining_seconds} sᴇᴄᴏɴᴅs\n\n✰ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ▶ {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
+        cap = f"<b>✰ ғɪʟᴇs / ᴠɪᴅᴇᴏ ᴏғ ⊳ {search}\n\n✰ ᴀsᴋᴇᴅ ʙʏ ⊳ {message.from_user.mention}\n\n✰ ɢɪᴠᴇɴ ɪɴ ⊳ {remaining_seconds} sᴇᴄᴏɴᴅs\n\n✰ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⊳ {message.chat.title} \n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
     else:
         # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
         cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
