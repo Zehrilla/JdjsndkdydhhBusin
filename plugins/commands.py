@@ -44,12 +44,12 @@ async def start(client, message):
                     InlineKeyboardButton('✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('✦ ᴏᴡɴᴇʀ ✦', callback_data='owner_hun'),
-                    InlineKeyboardButton('✖ ꜱᴜᴘᴘᴏʀᴛ ✖', callback_data='oye_support')
+                    InlineKeyboardButton('✦ ꜱᴜᴘᴘᴏʀᴛ ✦', callback_data='oye_support')
                 ],[
-                    InlineKeyboardButton('✖ ʜᴇʟᴘ ✖', callback_data='help'),
+                    InlineKeyboardButton('✦ ʜᴇʟᴘ ✦', callback_data='help'),
                     InlineKeyboardButton('✦ ᴀʙᴏᴜᴛ ✦', callback_data='about')
                 ],[
-                    InlineKeyboardButton('◉ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◉', callback_data='shortlink_info')
+                    InlineKeyboardButton('𓊈 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 𓊉', callback_data='shortlink_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -92,12 +92,12 @@ async def start(client, message):
                     InlineKeyboardButton('✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('✦ ᴏᴡɴᴇʀ ✦', callback_data='owner_hun'),
-                    InlineKeyboardButton('✖ ꜱᴜᴘᴘᴏʀᴛ ✖', callback_data='oye_support')
+                    InlineKeyboardButton('✦ ꜱᴜᴘᴘᴏʀᴛ ✦', callback_data='oye_support')
                 ],[
-                    InlineKeyboardButton('✖ ʜᴇʟᴘ ✖', callback_data='help'),
+                    InlineKeyboardButton('✦ ʜᴇʟᴘ ✦', callback_data='help'),
                     InlineKeyboardButton('✦ ᴀʙᴏᴜᴛ ✦', callback_data='about')
                 ],[
-                    InlineKeyboardButton('◉ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◉', callback_data='shortlink_info')
+                    InlineKeyboardButton('𓊈 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 𓊉', callback_data='shortlink_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
