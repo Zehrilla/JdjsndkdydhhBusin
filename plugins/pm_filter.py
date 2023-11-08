@@ -76,8 +76,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+qIz0BPy3hAZjODRl>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+qIz0BPy3hAZjODRl")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/trelairpark>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/trelairpark")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1284,7 +1284,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+qIz0BPy3hAZjODRl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/trelairpark")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1309,7 +1309,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+qIz0BPy3hAZjODRl")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/trelairpark")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1528,7 +1528,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owner_hun":
         buttons = [[
-            InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ 🐍', url="https://t.me/MS_Contact_RoBot")
+            InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ 🐍', url="https://t.me/Jita2021")
         ],[
             InlineKeyboardButton('❰ ʙᴀᴄᴋ', callback_data='start')
         ]]
@@ -1545,9 +1545,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "oye_support":
         buttons = [[
-            InlineKeyboardButton('🔮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔮', url="https://t.me/Thunnder_Bot")
+            InlineKeyboardButton('🔮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔮', url="https://t.me/trelairpark13")
         ],[
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/+z2b3yBUUMf80NWVl")
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/trelairpark")
         ],[
             InlineKeyboardButton('❰ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
@@ -1651,7 +1651,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rfrsh":
-        await query.answer("Fetching MongoDb DataBase")
+        await query.answer("Fetching DataBase")
         buttons = [[
             InlineKeyboardButton('❰ ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️ ʀᴇғʀᴇsʜ ♻️', callback_data='rfrsh')
@@ -1677,7 +1677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("🎥 ᴛᴜᴛᴏʀɪᴀʟ", url="https://t.me/MS_Mihir/26"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/MS_Contact_RoBot")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/Jita2021")
                   ],[
                     InlineKeyboardButton("❰ ʙᴀᴄᴋ", callback_data="start")
                   ]]
