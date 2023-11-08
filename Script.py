@@ -4,8 +4,6 @@ class script(object):
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
 
-ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴜꜱɪɴɢ ᴍᴇ
-
 ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ</b>"""
 
     
@@ -16,8 +14,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
 ‣ ᴅᴀᴛᴀʙᴀꜱᴇ : ᴄʟᴏᴜᴅ
 ‣ ꜱᴇʀᴠᴇʀ : ʙᴏꜱꜱ ʜᴏᴍᴇ
-‣ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/MS_Contact_RoBot'>ᴍs_ʜᴀᴄᴋᴇʀ</a>
-‣ ᴜᴘᴅᴀᴛᴇs: <a href='https://t.me/MS_Movvies'>ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ</a>
+‣ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/Jita2021'>jitta</a>
+‣ ᴜᴘᴅᴀᴛᴇs: <a href='https://t.me/trelairpark13'>ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ</a>
 ‣ вᴜɪʟᴅ ѕᴛᴀᴛᴜѕ: v2.7.1 [ ѕᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """
@@ -25,7 +23,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     
 -ᴍʏ ᴘʀᴏɢʀᴀᴍɪɴɢ ɪꜱ ʜɪᴅᴅᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ᴍʏ ꜱᴇᴄʀᴇᴛ ᴘʀᴏɢʀᴀᴍᴍɪɴɢ ᴄᴏᴅᴇꜱ
 
-- ᴍʏ ɢᴏᴅ <a href=https://t.me/MS_Contact_RoBot>ᴄʟɪᴄᴋ ᴍᴇ</a></b> 🙃</b>"""
+- ᴍʏ ɢᴏᴅ <a href=https://t.me/Jita2021>ᴄʟɪᴄᴋ ᴍᴇ</a></b> 🙃</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -46,7 +44,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/MS_Movvies)</code>
+<code>[Button Text](buttonurl:https://t.me/trelairpark13)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -106,19 +104,19 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     OWNER_HUN = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍꜱ_ʜᴀᴄᴋᴇʀ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @MS_Contact_Robot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MS_Contact_Robot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : jitta
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Jita2021
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Jita2021'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     OYE_SUPPORT = """<b>⍟───[ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ]───⍟
 
-𖣘 <a href='https://t.me/MS_Movvies'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
+𖣘 <a href='https://t.me/trelairpark13'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
+𖣘  <a href='https://t.me/trelairpark'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
+𖣘  <a href='https://t.me/trelairpark'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
+𖣘  <a href='https://t.me/trelairpark'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
     
     STATUS_TXT = """<b>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs
 📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
